@@ -1,0 +1,20 @@
+
+.icons img{
+    height: 50px;
+    width: 50px;
+}
+
+#saga {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+body{
+    background-image: url(images/grigorii-shcheglov-AsBvSN8GNLI-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
