@@ -18,3 +18,47 @@ body{
     text-align: center;
 }
 
+
+.boton {
+    background-color: #333533;
+    height: 50px;
+    width: 25vw;
+    margin: 0 auto 10px;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.boton:hover {
+    transform: translateY(-2px) scale(1.04);
+}
+
+.img-boton {
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 41px;
+    height: 41px;
+    background-color: blue;
+    border-radius: 50%;
+    /* top: 10px; */
+
+    position: absolute;
+}
+
+.compartir {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.link-boton {
+    color: aliceblue;
+    position: relative; /* Cambiar a relativo */
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block; /* Esto permitirá centrar el texto adecuadamente */
+    text-align: center; 
+}

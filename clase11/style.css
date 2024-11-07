@@ -1,0 +1,31 @@
+.contenedor h1 {
+    text-align: center;
+}
+
+
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+    transition-property: transform, background-image, background-color, height, width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s;
+    background-image: url(pngwing.com-11.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.box:hover{
+    background-color: red;
+    background-image: url(image/pngwing.com-12.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    transform: translateX(50%);
+    height: 750px;
+    width: 900px;
+}
+
+.boton a{
+    text-align: center;
+}

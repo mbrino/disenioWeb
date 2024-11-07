@@ -1,0 +1,111 @@
+.header {
+  background-color: #000;
+}
+
+/* Estilos para la barra de redes sociales */
+.social-bar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #000;
+    padding: 10px 0;
+  }
+  
+  .social-bar a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-bar a:hover {
+    color: #1da1f2; /* Cambia de color al pasar el cursor, puedes personalizarlo */
+  }
+  
+
+/* Estilos generales para el menú */
+.menu h1 {
+    text-align: center;
+    color: #fff;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Principal Principal Nota2 Nota3"
+      "Principal Principal nota4 Nota5";
+    width: 80%; 
+    height: 80%;
+    background-color: #fff;
+  }
+  
+  .Principal { 
+    grid-area: Principal; 
+    text-align: center;
+
+  }
+
+  .Principal img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .Principal h3 {
+    max-width: 70%;
+    text-align: left;
+  }
+  .Principal p{
+    text-align: left;
+  }
+  
+  .Nota2 { 
+    grid-area: Nota2;
+    text-align: center;
+   }
+
+  .Nota2 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .Nota3 { 
+    grid-area: Nota3; 
+    text-align: center;
+  }
+  .Nota3 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .nota4 { grid-area: nota4; }
+  
+  .Nota5 { grid-area: Nota5; }
+  
