@@ -62,3 +62,12 @@ body{
     display: inline-block; /* Esto permitirá centrar el texto adecuadamente */
     text-align: center; 
 }
+
+.contenedor{
+    height: 100vh;
+    align-content: center;
+}
+
+.cabecera{
+    margin-bottom: 100px;
+}

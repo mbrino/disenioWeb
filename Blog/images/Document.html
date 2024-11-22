@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="social-bar">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            
+            <div class="menu">
+                <h1>El Viejo Gammer</h1>
+                <ul>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Revisiones</a></li>
+                    <li><a href="#">Guias</a></li>
+                    <li><a href="#">Tendencias</a></li>
+                    <li><a href="#">Plataformas</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="separator">
+            <h4>Recientes</h4>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="Principal">
+                <img src="images/GoTB9zEMlUNt-fkHeeY0Qw-1280x640.jpeg" alt="">
+                <h3><a href="">The Last Of Us parte 2 remastered ya tiene fecha de lanzamiento</a></h3>
+                <p>La entrega final que generó controversia se estrena el próximo mes</p>
+            </div>
+            <div class="Nota2">
+                <img src="images/Streets_of_Rage_4_portada.webp" alt="">
+                <h3><a href="">Street of Rage 4 revision</a></h3>
+                <p>Jugamos el beat em up mas esperado del año, te dejamos la guia completa con todos sus secretos, sus puntos fuertes y lo que queda a deber.</p>
+            </div>
+            <div class="Nota3">
+                <img src="images/Marvel_vs_Capcom_Infinite_logo.webp" alt="">
+                <h3><a href="">MVC Infinity el fracaso anunciado</a></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<!--- Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.---></p>
+            </div>
+            <div class="nota4">
+                <img src="images/Leon_Claire_KeyArt_August.jpg.webp" alt="">
+            </div>
+            <div class="Nota5"></div>
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

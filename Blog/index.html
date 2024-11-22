@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Me basé en este blog https://wordpress.com/es/theme/spiel?tab_filter=entertainment -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,15 +10,15 @@
 </head>
 <body>
     <div>
-        <div class="header">
-            <div class="social-bar">
+        <header class="header">
+            <nav class="social-bar">
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              </div>
+            </nav>
             
-            <div class="menu">
+            <nav class="menu">
                 <h1>El Viejo Gammer</h1>
                 <ul>
                     <li><a href="#">Noticias</a></li>
@@ -26,38 +27,74 @@
                     <li><a href="#">Tendencias</a></li>
                     <li><a href="#">Plataformas</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="separator">
+            </nav>
+        </header>
+        <div class="recientes">
             <h4>Recientes</h4>
             <hr>
         </div>
-        <div class="container">
+        <main class="container">
             <div class="Principal">
-                <img src="images/GoTB9zEMlUNt-fkHeeY0Qw-1280x640.jpeg" alt="">
-                <h3><a href="">The Last Of Us parte 2 remastered ya tiene fecha de lanzamiento</a></h3>
-                <p>La entrega final que generó controversia se estrena el próximo mes</p>
+                <a href="Notas/tlou2.html"><img src="images/GoTB9zEMlUNt-fkHeeY0Qw-1280x640.jpeg" alt=""></a>
+                <h6><a href="">Noticias</a></h6>
+                <h3><a href="Notas/tlou2.html">The Last Of Us parte 2 remastered ya tiene fecha de lanzamiento</a></h3>
+                <p>En unos días llega la versión remasterizada de The Last of Us Parte II, el GOTY 2020, a PlayStation 5. ¿Merece la pena? ¿Está a la altura de lo que esperamos de este retorno? Repasamos las notas internacionales que ha cosechado el título.</p>
+                <h6>Brino Matias</h6>
             </div>
             <div class="Nota2">
-                <img src="images/Streets_of_Rage_4_portada.webp" alt="">
+                <a href="Notas/streetofrage.html"><img src="images/Streets_of_Rage_4_portada.webp" alt=""></a>
+                <h6><a href="">Revisiones</a>, <a href="">Guias</a></h6>
+                <h3><a href="Notas/streetofrage.html">Street of Rage 4 revision</a></h3>
+                <p>Jugamos el beat em up mas esperado del año, te dejamos la guia completa con todos sus secretos, sus puntos fuertes y lo que queda a deber.</p>
+                <h6>Brino Matias</h6>
             </div>
             <div class="Nota3">
-                <img src="images/marvel-vs-capcom-infinite-20179162384_1.jpg" alt="">
-                <h3><a href="">MVC Infinity el fracaso anunciado</a></h3>
+                <a href="Notas/mvcinifinity.html"><img src="images/Marvel_vs_Capcom_Infinite_logo.webp" alt=""></a>
+                <h6><a href="">Noticias</a></h6>
+                <h3><a href="Notas/mvcinifinity.html">MVC Infinity el fracaso anunciado</a></h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<!--- Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.---></p>
+                <h6>Brino Matias</h6>
             </div>
-            <div class="nota4"></div>
-            <div class="Nota5"></div>
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
+            <div class="nota4">
+                <a href="Notas/ResidentEvil.html"><img src="images/Leon_Claire_KeyArt_August.jpg.webp" alt=""></a>
+                <h6><a href="">Revisiones</a>, <a href="">Guias</a></h6>
+                <h3><a href="Notas/ResidentEvil.html">Resident Evil 2 Remake revision</a></h3>
+                <p>Volvemos a las calles de Racoom City a volar cesos, te contamos todo lo nuevo que trae este juego y si fue capaz de igual a mejorar al original</p>
+                <h6>Brino Matias</h6>
+            </div>
+            <div class="Nota5">
+                <a href="Notas/diablo.html"><img src="images/1366_2000.webp" alt=""></a>
+                <h6><a href="">Noticias</a></h6>
+                <h3><a href="Notas/diablo.html">Diablo 4 que se viene?</a></h3>
+                <p>Diablo 4 busca renovar contenido te contamos que se viene</p>
+                <h6>Brino Matias</h6>
+            </div>
+        </main>
+        <hr>
+        <footer class="footer">
+            <div class="footer-logo">
+              <a href="index.html"><h3>El Viejo Gammer</h3></a>
+              <p>Tu portal de juegos favoritos</p>
+            </div>
+            <div class="footer-navigation">
+              <h4>Enlaces rápidos</h4>
+              <ul>
+                <li><a href="#about">Noticias</a></li>
+                <li><a href="#services">Revisiones</a></li>
+                <li><a href="#contact">Guias</a></li>
+                <li><a href="#blog">Tendencias</a></li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <h4>Conéctate</h4>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+              </ul>
+            </div>
+          </footer>
     </div>
 </body>
 </html>
