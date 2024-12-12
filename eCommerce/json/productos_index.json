@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "nombre": "7 DAYS TO DIE",
+        "contado": 40.799,
+        "transferencia": 41.349,
+        "credito": 51.00,
+        "imagen": "./img/7-days-to-die.jpg",
+        "categoria": ["PS4","DESTACADO", "PLAYSTATION"]
+    },
+    {
+        "id": 2,
+        "nombre": "A WAY OUT",
+        "contado": 57.999,
+        "transferencia": 61.199,
+        "credito": 72.00,
+        "imagen": "./img/a-way-out1.jpg",
+        "categoria": ["PS4", "PLAYSTATION"]
+    },
+    {
+        "id": 3,
+        "nombre": "ACE COMBAT 7",
+        "contado": 44.399,
+        "transferencia": 49.299,
+        "credito": 58.00,
+        "imagen": "./img/ace-combat1.jpg",
+        "categoria": ["PS4", "PLAYSTATION"]
+    },
+    {
+        "id": 4,
+        "nombre": "ANTHEM",
+        "contado": 27.759,
+        "transferencia": 29.494,
+        "credito": 35.500,
+        "imagen": "./img/anthem1.jpg",
+        "categoria": ["PS4", "PLAYSTATION"]
+    },
+    {
+        "id": 5,
+        "nombre": "GOD OF WAR RAGNAROK",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/gow.jpg",
+        "categoria": ["PS5", "DESTACADO", "PLAYSTATION"]
+    },
+    {
+        "id": 6,
+        "nombre": "EA SPORTS FC 25",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/ea_sport.jpg",
+        "categoria": ["PS5", "PLAYSTATION"]
+    },
+    {
+        "id": 7,
+        "nombre": "THE LAST OF US PART II REMASTERED",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/tlour2.jpg",
+        "categoria": ["PS5", "DESTACADO", "PLAYSTATION"]
+    },
+    {
+        "id": 8,
+        "nombre": "F1 22",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/F1_22.jpg",
+        "categoria": ["PS5", "PLAYSTATION"]
+    },
+    {
+        "id": 9,
+        "nombre": "SUPER MARIO ODYSSEY",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/mario-odyssey.jpg",
+        "categoria": "NINTENDO"
+    },
+    {
+        "id": 10,
+        "nombre": "BAYONETTA 2",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/bayonetta2.jpg",
+        "categoria": "NINTENDO"
+    },
+    {
+        "id": 11,
+        "nombre": "THE LEGEND OF ZELDA: BREATH OF THE WILD",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/zelda.jpg",
+        "categoria": "NINTENDO"
+    },
+    {
+        "id": 12,
+        "nombre": "ARK SURVIVAL EVOLVED",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/ark.jpg",
+        "categoria": "NINTENDO"
+    },
+    {
+        "id": 13,
+        "nombre": "MORTAL KOMBAT 11 ULTIMATE",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/mk11.jpg",
+        "categoria": ["XBOX", "DESTACADO"]
+    },
+    {
+        "id": 14,
+        "nombre": "FIFA 2022",
+        "contado": 47.999,
+        "transferencia": 50.999,
+        "credito": 35.500,
+        "imagen": "./img/fifa22.jpg",
+        "categoria": "XBOX"
+    }
+]
